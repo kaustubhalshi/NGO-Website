@@ -11,7 +11,7 @@ The website consists of the following main pages:
 
 ### 1. **Home (index.html)**
 
-![Home](img/Screenshot 2024-10-11 004048.png)
+![Screenshot 2024-10-11 004048](https://github.com/user-attachments/assets/43f0bfcd-6209-4ef4-a198-ff0e3c342a85)
 
    - Introduction to the Akshaya Patra Foundation.
    - A slider showcasing various images and activities of the foundation.
