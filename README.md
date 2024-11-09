@@ -19,7 +19,7 @@ The website consists of the following main pages:
 
 ### 2. **About Us page**
 
-![Screenshot 2024-10-11 005242](https://github.com/user-attachments/assets/f2758708-c9a0-4e9b-8ee3-e37885383f42)
+![Screenshot 2024-11-09 230448](https://github.com/user-attachments/assets/cae9eeb3-15d1-4ea4-b107-02b5b729d730)
 
    - Detailed information about the foundation, its mission, vision, and history.
    - Insight into the foundation’s initiatives, how it operates, and its impact.
@@ -33,7 +33,7 @@ The website consists of the following main pages:
 
 ### 4. **Donate Now page**
 
-![Screenshot 2024-11-09 230448](https://github.com/user-attachments/assets/cae9eeb3-15d1-4ea4-b107-02b5b729d730)
+![Screenshot 2024-10-11 005242](https://github.com/user-attachments/assets/f2758708-c9a0-4e9b-8ee3-e37885383f42)
 
    - A page that encourages visitors to contribute to the foundation’s cause by donating online.
    - Features to guide users through the donation process.
