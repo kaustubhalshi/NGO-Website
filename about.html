@@ -1,0 +1,61 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Akshay Patra NGO - About Us</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html">Akshay Patra</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="donate.html">DONATE NOW</a></li>
+                    <li><a href="what.html">WHAT WE DO</a></li>
+                    <li><a href="index.html#contact">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="content-section">
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lhucarMcm_U?si=4ObM2_uS4c3oFClE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            </div>
+
+
+            <h2>About Us</h2>
+            <p>
+                The Akshaya Patra Foundation is an independent charitable trust registered under the Indian Trusts Act 1882 (Reg. No. 154). We endeavour to implement the Government of India’s PM POSHAN Initiative (formerly the Mid-Day Meal Scheme) to solve at scale the overarching societal issues of classroom hunger and malnutrition in the country.
+            </p>
+            <p>
+                It is our firm belief that investing in child nutrition and education is one of the most effective entry points for human development. Driven by this belief, we strive to provide children with a hot, nutritious and tasty mid-day meal every school day as an incentive to come to school. Thus, the vision – ‘No child in India shall be deprived of education because of hunger.’
+            </p>
+            <p>
+                Since the year 2000, we have endeavoured to reach out to children with wholesome mid-day meals every school day by leveraging technology and effectively harnessing the potential of the Public-Private Partnership (PPP) model. By establishing an extensive network of kitchens and partnering with the Government of India, state governments, UT administrations, corporate houses and philanthropists, we have created a system to address a social cause on a massive scale. Our efforts are in direct alignment with two critical Sustainable Development Goals (SDGs): SDG 2 – Zero Hunger and SDG 4 – Quality Education.
+            </p>
+            <p>
+                Currently, we serve over 2.2 million children studying in 23,110 government schools and Anganwadi centres across 75 locations in 16 states and 2 union territories of India.
+            </p>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Akshay Patra. All rights reserved.</p>
+        </footer>
+
+        <script>
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        </script>
+    </body>
+    </html>

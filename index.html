@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshay Patra NGO - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        footer {
+            background-color: #00468B;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .contact-info {
+            margin: 20px 0;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+            color: white;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social-links a img {
+            height: 30px;
+            width: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="Akshay Patra Logo" style="height: 50px; margin-right: 10px;"> <!-- Adjust the path to your logo -->
+                <a href="#">Akshay Patra</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="donate.html">DONATE NOW</a></li>
+                <li><a href="what.html">WHAT WE DO</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Welcome to Akshay Patra NGO</h1>
+            <p>Providing nutritious meals to millions of children every day.</p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="contact-info">
+            <p>Mail: <a href="mailto:donorcare@akshaypatra.org" style="color: white;">donorcare@akshaypatra.org</a></p>
+            <p>Call: <a href="tel:18004258622" style="color: white;">1800-425-8622</a></p>
+        </div>
+        
+        <div class="social-links">
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="insta.jpeg" alt="Instagram Logo">
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="fb.png" alt="Facebook Logo">
+            </a>
+        </div>
+        
+        <p>&copy; 2024 Akshay Patra. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

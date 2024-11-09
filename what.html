@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What We Do - Akshaya Patra</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .slider {
+            margin-top: 100px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .slides {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .slide {
+            min-width: 100%;
+            box-sizing: border-box;
+        }
+
+        .buttons {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+
+        .button {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #00468B;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html">Akshaya Patra</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="donate.html">DONATE NOW</a></li>
+            <li><a href="index.html#contact">CONTACT US</a></li>
+        </ul>
+    </div>
+</header>
+
+<div class="slider">
+    <div class="slides">
+        <div class="slide"><img src="IMG2.jpg" alt="Image 1"></div>
+        <div class="slide"><img src="IMG1.jpg" alt="Image 2"></div>
+        <div class="slide"><img src="IMG3.jpg" alt="Image 3"></div>
+    </div>
+    <div class="buttons">
+        <button class="button" id="prevBtn">&#10094;</button>
+        <button class="button" id="nextBtn">&#10095;</button>
+    </div>
+</div>
+
+<div class="content-section">
+    <h2>OUR WORK</h2>
+    <p>
+        The Akshaya Patra Foundation has evolved and adapted to changing times over the last two decades, enhancing its feeding initiatives along the way. We have simultaneously introduced non-feeding endeavours to boost the impact of our core initiative, the school feeding programme. Children’s overall development and welfare are central to all our endeavours. Through these endeavours, we seek to contribute towards a world where children do not have to choose between food and education; they have the best of both.
+    </p>
+    
+    <h3>Feeding Programmes</h3>
+    <p>
+        <strong>PM POSHAN (Mid-Day Meal Scheme)</strong> – The school lunch programme mainly covers children studying in primary (I-V) and upper primary (VI-VIII) classes in government and government-aided schools. In some states, children in secondary (IX-X) classes are also included in the ambit of the programme.<br><br>
+
+        <strong>ICDS Anganwadi Feeding Programme</strong> – The target beneficiaries of ICDS feeding programme comprise pregnant women, nursing mothers and children in the age group of 0-6 years.<br><br>
+
+        <strong>Breakfast Programme</strong> – It is designed and implemented to help address short-term hunger among school children and improve their concentration levels.<br><br>
+
+        <strong>Food Assistance</strong> – The objective is to use the kitchen infrastructure for humanitarian relief work in times of adversity. While most of the efforts over the years have been at the regional level, during the COVID-19 pandemic, food relief was extended across the country.<br><br>
+
+        <strong>Feeding Homeless Mothers</strong> – In Vrindavan, Uttar Pradesh, cooked meals are provided to homeless women who are vulnerable to hunger.
+    </p>
+
+    <h3>Non-feeding Programmes</h3>
+    <p>
+        <strong>National Endeavour for Student Transformation (NEST)</strong><br>
+        <strong>Digital Education</strong> – An attempt to bridge the digital divide and further digital inclusiveness by providing students belonging to economically weaker sections of society access to good quality, modern education free of cost.<br><br>
+
+        <strong>Scholarship Programme</strong> – The initiative identifies deserving government school and college students from the underserved sections of society and helps them source scholarships so that they can pursue further education.<br><br>
+
+        <strong>School Rejuvenation Programme</strong> – Based on the Government’s Model School initiative, this endeavour aims to provide a conducive environment for children through a series of infrastructural and academic interventions.<br><br>
+
+        <strong>Abhay</strong> – A remedial classes initiative aimed at boosting children’s academic performance through activity-based learning and extracurricular activities.
+    </p>
+</div>
+
+<footer>
+    <p>&copy; 2024 Akshaya Patra Foundation. All rights reserved.</p>
+</footer>
+
+<script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let slides = document.querySelectorAll('.slide');
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        slides[slideIndex - 1].style.display = "block";  
+        setTimeout(showSlides, 3000);
+    }
+
+    document.getElementById("prevBtn").onclick = function() {
+        slideIndex -= 2; 
+        showSlides();
+    };
+
+    document.getElementById("nextBtn").onclick = function() {
+        showSlides();
+    };
+</script>
+
+</body>
+</html>

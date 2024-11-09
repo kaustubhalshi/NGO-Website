@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.logo a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.nav-links a:hover {
+    background-color: #003366;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('HOMEBG.jpg'); /* Replace with actual background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Content Section */
+.content-section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px; /* Adds space to avoid navbar overlap */
+}
+
+.content-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #00468B;
+}
+
+.content-section p {
+    font-size: 18px;
+    color: #333;
+    text-align: justify;
+}
+
+/* Image Slider Styles */
+.slider {
+    position: relative;
+    max-width: 800px; /* Max width of the slider */
+    margin: 0 auto; /* Center the slider */
+    overflow: hidden; /* Hide overflow */
+}
+
+.slides {
+    display: flex; /* Align images in a row */
+    transition: transform 0.5s ease; /* Smooth transition */
+}
+
+.slide {
+    min-width: 100%; /* Each image takes full width */
+}
+
+.slide img {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.button {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    background-color: #00468B;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
