@@ -35,8 +35,3 @@ The website consists of the following main pages:
 - **CSS**: For styling and design. The styles are embedded within the pages and can be found in `style.css`.
 - **JavaScript**: For the interactive slider and other dynamic components of the website.
 
-## File Structure
-
-├── img/ # Contains images used in the website │ ├── IMG1.jpg │ ├── IMG2.jpg │ └── IMG3.jpg ├── style.css # Contains all the styles for the website ├── index.html # The homepage with navigation and content sections ├── about.html # About Us page ├── donate.html # Donation page ├── whatwedo.html # What We Do page └── README.md # This file
-
-
