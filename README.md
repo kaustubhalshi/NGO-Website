@@ -19,14 +19,14 @@ The website consists of the following main pages:
 
 ### 2. **About Us page**
 
-![Screenshot 2024-11-09 230448](https://github.com/user-attachments/assets/cae9eeb3-15d1-4ea4-b107-02b5b729d730)
+![Screenshot 2024-11-09 230203](https://github.com/user-attachments/assets/bf3345cf-790a-461e-b353-2b2666608032)
 
    - Detailed information about the foundation, its mission, vision, and history.
    - Insight into the foundation’s initiatives, how it operates, and its impact.
 
 ### 3. **What We Do page**
 
-![Screenshot 2024-10-11 005346](https://github.com/user-attachments/assets/2fa34c87-51a3-491b-9780-042a7ae8ff95)
+![Screenshot 2024-11-09 230448](https://github.com/user-attachments/assets/cae9eeb3-15d1-4ea4-b107-02b5b729d730)
 
    - A breakdown of the various feeding and non-feeding programs that Akshaya Patra runs.
    - Descriptions of specific initiatives like the PM POSHAN, ICDS Anganwadi Feeding, and others.
@@ -40,7 +40,7 @@ The website consists of the following main pages:
 
 ### 5. **Contact Us page**
 
-![Screenshot 2024-11-09 230203](https://github.com/user-attachments/assets/bf3345cf-790a-461e-b353-2b2666608032)
+![Screenshot 2024-10-11 005346](https://github.com/user-attachments/assets/2fa34c87-51a3-491b-9780-042a7ae8ff95)
 
    - A contact section on the homepage where users can find ways to reach the foundation for queries, partnerships, or support.
 
