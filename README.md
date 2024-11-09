@@ -10,6 +10,9 @@ This repository contains the source code for the Akshaya Patra Foundation's webs
 The website consists of the following main pages:
 
 ### 1. **Home (index.html)**
+
+![Home](img/Screenshot 2024-10-11 004048.jpg)
+
    - Introduction to the Akshaya Patra Foundation.
    - A slider showcasing various images and activities of the foundation.
    - Navigation to other pages like "About Us", "Donate Now", "What We Do", and "Contact Us."
